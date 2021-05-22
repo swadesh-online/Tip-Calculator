@@ -68,18 +68,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "tip-calc:build"
+            "browserTarget": "tip-calculator:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "tip-calc:build:production"
+              "browserTarget": "tip-calculator:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "tip-calc:build"
+            "browserTarget": "tip-calculator:build"
           }
         },
         "test": {
@@ -120,7 +120,7 @@
           },
           "configurations": {
             "production": {
-              "devServerTarget": "tip-calc:serve:production"
+              "devServerTarget": "tip-calculator:serve:production"
             }
           }
         }
